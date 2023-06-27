@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Invoice Billing System
+  profiles:
+    active: @spring.profiles.active@
+
+custom:
+  application:
+    name: E-commerce Store
+    version: 1.0
+
